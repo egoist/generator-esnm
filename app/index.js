@@ -40,6 +40,11 @@ module.exports = yeoman.Base.extend({
 			message: 'Does this module have related projects?',
 			type: 'confirm',
 			default: false
+		}, {
+			name: 'semicolon',
+			message: 'Allow semicolon in your code?',
+			type: 'confirm',
+			default: false
 		}], props => {
 			const tpl = {
 				moduleName: props.moduleName,
@@ -51,7 +56,8 @@ module.exports = yeoman.Base.extend({
 				website: props.website,
 				humanizedWebsite: humanizeUrl(props.website),
 				cli: props.cli,
-				showRelated: props.showRelated
+				showRelated: props.showRelated,
+				semicolon: props.semicolon
 			};
 
 			const mv = (from, to) => {

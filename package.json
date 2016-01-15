@@ -1,6 +1,6 @@
 {
   "name": "generator-esnm",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Scaffold out a node module in ECMAScript",
   "license": "MIT",
   "repository": "egoist/generator-esnm",
@@ -39,6 +39,7 @@
   },
   "devDependencies": {
     "ava": "*",
+    "cz-conventional-changelog": "^1.1.5",
     "pify": "^2.2.0",
     "xo": "*",
     "yeoman-assert": "^2.0.0",
@@ -49,5 +50,10 @@
     "ignores": [
       "app/templates/**"
     ]
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }
