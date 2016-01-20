@@ -1,20 +1,11 @@
 #!/usr/bin/env node
 'use strict'
-var meow = require('meow')
-var <%= camelModuleName %> = require('./')
+var cli = require('commander')
+var update = require('update-notifier')
+var pkg = require('./package')
 
-var cli = meow([
-	'Usage',
-	'  $ <%= moduleName %> [input]',
-	'',
-	'Options',
-	'  --foo  Lorem ipsum. [Default: false]',
-	'',
-	'Examples',
-	'  $ <%= moduleName %>',
-	'  unicorns & rainbows',
-	'  $ <%= moduleName %> ponies',
-	'  ponies & rainbows'
-])
+update({pkg: pkg}).notify()
 
-console.log(<%= camelModuleName %>(cli.input[0] || 'unicorns'))
+cli.version(pkg.version)
+
+cli.parse(process.argv)

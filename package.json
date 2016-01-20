@@ -1,6 +1,6 @@
 {
   "name": "generator-esnm",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "Scaffold out a node module in ECMAScript",
   "license": "MIT",
   "repository": "egoist/generator-esnm",

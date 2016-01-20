@@ -26,11 +26,12 @@
     ""
   ],
   "dependencies": {<% if (cli) { %>
-    "meow": "^3.6.0"
+    "commander": "*",
+	"update-notifier": "*"
   <% } %>},
   "devDependencies": {
-    "ava": "^0.8.0",
-    "xo": "^0.12.1"
+    "ava": *",
+    "xo": "*"
   },
   "xo": {
     "semicolon": <%= semicolon %>
