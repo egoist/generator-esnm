@@ -28,9 +28,9 @@ test.serial('generates expected files', async () => {
 		'.gitignore',
 		'.travis.yml',
 		'index.js',
-		'license',
+		'LICENSE',
 		'package.json',
-		'readme.md',
+		'README.md',
 		'test.js'
 	]);
 
