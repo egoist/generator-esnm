@@ -30,7 +30,7 @@
 	  "update-notifier": "*"
   <% } %>},
   "devDependencies": {
-    "ava": *",
+    "ava": "*",
     "xo": "*"
   },
   "xo": {

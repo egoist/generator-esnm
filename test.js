@@ -26,7 +26,7 @@ test.serial('generates expected files', async () => {
 		'.git',
 		'.gitattributes',
 		'.gitignore',
-		'.travis.yml',
+		'circle.yml',
 		'index.js',
 		'LICENSE',
 		'package.json',
@@ -51,5 +51,5 @@ test.serial('CLI option', async () => {
 	assert.file('cli.js');
 	assert.fileContent('package.json', /"bin":/);
 	assert.fileContent('package.json', /"bin": "cli.js"/);
-	assert.fileContent('package.json', /"meow"/);
+	assert.fileContent('package.json', /"commander"/);
 });

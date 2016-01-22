@@ -1,6 +1,6 @@
 {
   "name": "generator-esnm",
-  "version": "0.1.41",
+  "version": "0.1.5",
   "description": "Scaffold out a node module in ECMAScript",
   "license": "MIT",
   "repository": "egoist/generator-esnm",
@@ -38,7 +38,7 @@
     "yeoman-generator": "^0.22.1"
   },
   "devDependencies": {
-    "ava": "*",
+    "ava": "^0.10.0",
     "cz-conventional-changelog": "^1.1.5",
     "pify": "^2.2.0",
     "xo": "*",
