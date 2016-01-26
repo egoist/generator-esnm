@@ -86,6 +86,10 @@ module.exports = yeoman.Base.extend({
 		this.spawnCommandSync('git', ['init']);
 	},
 	install() {
-		this.installDependencies({bower: false});
+		this.spawnCommand('npm', [
+			'install',
+			'--registry',
+			'https://registry.npm.taobao.org'
+		]);
 	}
 });
