@@ -1,5 +1,9 @@
 #!/usr/bin/env node
 'use strict'
+
+/**
+ * Module dependencies
+ */
 var cli = require('commander')
 var update = require('update-notifier')
 var pkg = require('./package')
