@@ -1,19 +1,19 @@
-# <%= moduleName %> [![NPM version](https://img.shields.io/npm/v/<%= moduleName %>.svg)](https://npmjs.com/package/<%= moduleName %>) [![NPM downloads](https://img.shields.io/npm/dm/<%= moduleName %>.svg)](https://npmjs.com/package/<%= moduleName %>) [![Build Status](https://img.shields.io/circleci/project/<%= githubUsername %>/<%= moduleName %>/master.svg)](https://circleci.com/gh/<%= githubUsername %>/<%= moduleName %>) 
+# <%= moduleName %> [![NPM version](https://img.shields.io/npm/v/<%= moduleName %>.svg)](https://npmjs.com/package/<%= moduleName %>) [![NPM downloads](https://img.shields.io/npm/dm/<%= moduleName %>.svg)](https://npmjs.com/package/<%= moduleName %>) [![Build Status](https://img.shields.io/circleci/project/<%= githubUsername %>/<%= moduleName %>/master.svg)](https://circleci.com/gh/<%= githubUsername %>/<%= moduleName %>)
 
 > <%= description %>
 
 ## Install
 
-```
+```bash
 $ npm install --save <%= moduleName %>
 ```
 
 ## Usage
 
 ```js
-const <%= camelModuleName %> = require('<%= moduleName %>');
+const <%= camelModuleName %> = require('<%= moduleName %>')
 
-<%= camelModuleName %>('unicorns');
+<%= camelModuleName %>('unicorns')
 //=> 'unicorns & rainbows'
 ```
 
