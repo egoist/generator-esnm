@@ -29,10 +29,6 @@
     "commander": "^2.9.0",
 	  "update-notifier": "^0.6.0"
   },<% } %>
-  "devDependencies": {
-    "ava": "^0.10.0",
-    "xo": "^0.12.1"
-  },
   "xo": {
     "semicolon": <%= semicolon %>
   }
