@@ -31,8 +31,10 @@
   },<% } %>
   "devDependencies": {
     "ava": "latest",
+    "xo": "latest"
   },
   "xo": {
-    "semicolon": <%= semicolon %>
+    "semicolon": <%= semicolon %>,
+    "space": 2
   }
 }
