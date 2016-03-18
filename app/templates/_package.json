@@ -27,7 +27,7 @@
   ],<% if (cli) { %>
   "dependencies": {
     "commander": "^2.9.0",
-	  "update-notifier": "^0.6.0"
+    "update-notifier": "^0.6.0"
   },<% } %>
   "devDependencies": {
     "ava": "latest",

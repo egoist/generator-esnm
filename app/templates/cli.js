@@ -1,15 +1,20 @@
 #!/usr/bin/env node
 'use strict'
-
 /**
  * Module dependencies
  */
-var cli = require('commander')
-var update = require('update-notifier')
-var pkg = require('./package')
+const meow = require('meow')
+const update = require('update-notifier')
+const pkg = require('./package')
+const main = require('./')
 
-update({pkg: pkg}).notify()
+update({pkg}).notify()
 
-cli.version(pkg.version)
+const cli = meow(`
+  Usage:
 
-cli.parse(process.argv)
+    -v/--version:   Print version
+    -h/--help:      Print help
+`)
+
+main(cli)

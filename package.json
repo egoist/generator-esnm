@@ -47,6 +47,7 @@
   },
   "xo": {
     "esnext": true,
+    "space": 2,
     "ignores": [
       "app/templates/**"
     ]
