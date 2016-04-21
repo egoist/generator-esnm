@@ -35,6 +35,12 @@
   },
   "xo": {
     "semicolon": <%= semicolon %>,
-    "space": 2
+    "space": 2,
+    "rules": {
+      "operator-linebreak": [
+        2,
+        "before"
+      ]
+    }
   }
 }
