@@ -1,6 +1,12 @@
-# <%= moduleName %> [![NPM version](https://img.shields.io/npm/v/<%= moduleName %>.svg)](https://npmjs.com/package/<%= moduleName %>) [![NPM downloads](https://img.shields.io/npm/dm/<%= moduleName %>.svg)](https://npmjs.com/package/<%= moduleName %>) [![Build Status](https://img.shields.io/circleci/project/<%= githubUsername %>/<%= moduleName %>/master.svg)](https://circleci.com/gh/<%= githubUsername %>/<%= moduleName %>)
+<p align="center">
+  <br><strong><%= moduleName %></strong> is <%= description %>.
+</p>
 
-> <%= description %>
+<p align="center">
+  <a href="https://npmjs.com/package/<%= moduleName %>"><img src="https://img.shields.io/npm/v/<%= moduleName %>.svg?style=flat-square" alt="NPM version"></a>
+  <a href="https://npmjs.com/package/<%= moduleName %>"><img src="https://img.shields.io/npm/dm/<%= moduleName %>.svg?style=flat-square" alt="NPM downloads"></a>
+  <a href="https://circleci.com/gh/<%= githubUsername %>/<%= moduleName %>"><img src="https://img.shields.io/circleci/project/<%= githubUsername %>/<%= moduleName %>/master.svg?style=flat-square" alt="Build Status"></a>
+</p>
 
 ## Install
 
