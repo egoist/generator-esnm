@@ -1,12 +1,8 @@
-<p align="center">
-  <br><strong><%= moduleName %></strong> is <%= description %>.
-</p>
+# <%= moduleName %>
 
-<p align="center">
-  <a href="https://npmjs.com/package/<%= moduleName %>"><img src="https://img.shields.io/npm/v/<%= moduleName %>.svg?style=flat-square" alt="NPM version"></a>
-  <a href="https://npmjs.com/package/<%= moduleName %>"><img src="https://img.shields.io/npm/dm/<%= moduleName %>.svg?style=flat-square" alt="NPM downloads"></a>
-  <a href="https://circleci.com/gh/<%= githubUsername %>/<%= moduleName %>"><img src="https://img.shields.io/circleci/project/<%= githubUsername %>/<%= moduleName %>/master.svg?style=flat-square" alt="Build Status"></a>
-</p>
+[![NPM version](https://img.shields.io/npm/v/<%= moduleName %>.svg?style=flat-square)](https://npmjs.com/package/<%= moduleName %>) [![NPM downloads](https://img.shields.io/npm/dm/<%= moduleName %>.svg?style=flat-square)](https://npmjs.com/package/<%= moduleName %>) [![Build Status](https://img.shields.io/circleci/project/egoist/<%= moduleName %>/master.svg?style=flat-square)](https://circleci.com/gh/egoist/<%= moduleName %>)
+
+> <%= description %>
 
 ## Install
 
@@ -64,6 +60,11 @@ $ <%= moduleName %> --help
     ponies & rainbows
 ```<% } %><% if (showRelated) { %>
 
+## Related
+
+<!-- Related projects start -->
+<!-- Related projects end --><% } %>
+
 ## Contributing
 
 1. Fork it!
@@ -72,11 +73,6 @@ $ <%= moduleName %> --help
 4. Push to the branch: `git push origin my-new-feature`
 5. Submit a pull request :D
 
-## Related
-
-<!-- Related projects start -->
-<!-- Related projects end --><% } %>
-
 ## License
 
-MIT © [<%= name %>](<%= website %>)
+[MIT](https://egoist.mit-license.org/) © [<%= name %>](<%= website %>)

@@ -26,8 +26,7 @@
     ""
   ],<% if (cli) { %>
   "dependencies": {
-    "commander": "^2.9.0",
-    "update-notifier": "^0.6.0"
+    "cac": "^2.3.0"
   },<% } %>
   "devDependencies": {
     "ava": "latest",
@@ -35,12 +34,6 @@
   },
   "xo": {
     "semicolon": <%= semicolon %>,
-    "space": 2,
-    "rules": {
-      "operator-linebreak": [
-        2,
-        "before"
-      ]
-    }
+    "space": 2
   }
 }
