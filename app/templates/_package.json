@@ -14,7 +14,8 @@
     "node": ">=4"
   },
   "scripts": {
-    "test": "xo && ava"
+    "test": "jest && xo",
+    "toc": "markdown-toc -i README.md"
   },
   "files": [
     "index.js"<% if (cli) { %>,
@@ -29,11 +30,14 @@
     "cac": "^2.3.0"
   },<% } %>
   "devDependencies": {
-    "ava": "latest",
+    "jest-cli": "^15.1.1",
     "xo": "latest"
   },
   "xo": {
     "semicolon": <%= semicolon %>,
     "space": 2
+  },
+  "jest": {
+    "testEnvironment": "node"
   }
 }

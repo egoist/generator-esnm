@@ -2,7 +2,12 @@
 
 [![NPM version](https://img.shields.io/npm/v/<%= moduleName %>.svg?style=flat-square)](https://npmjs.com/package/<%= moduleName %>) [![NPM downloads](https://img.shields.io/npm/dm/<%= moduleName %>.svg?style=flat-square)](https://npmjs.com/package/<%= moduleName %>) [![Build Status](https://img.shields.io/circleci/project/egoist/<%= moduleName %>/master.svg?style=flat-square)](https://circleci.com/gh/egoist/<%= moduleName %>)
 
-> <%= description %>
+<details><summary>Table of Contents</summary>
+
+<!-- toc -->
+<!-- tocstop -->
+
+</details>
 
 ## Install
 
