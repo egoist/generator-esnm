@@ -35,7 +35,16 @@
   },
   "xo": {
     "semicolon": <%= semicolon %>,
-    "space": 2
+    "space": 2,
+    "rules": {
+      "quote-props": ["error", "as-needed"],
+      "no-unused-vars": [2, { "vars": "all", "args": "none" }],
+      "curly": [
+        "error",
+        "multi-line",
+        "consistent"
+      ]
+    }
   },
   "jest": {
     "testEnvironment": "node"
