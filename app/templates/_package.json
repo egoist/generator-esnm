@@ -14,7 +14,7 @@
     "node": ">=4"
   },
   "scripts": {
-    "test": "jest && xo",
+    "test": "jest && eslint *.js",
     "toc": "markdown-toc -i README.md"
   },
   "files": [
@@ -31,22 +31,13 @@
   },<% } %>
   "devDependencies": {
     "jest-cli": "^15.1.1",
-    "xo": "latest"
-  },
-  "xo": {
-    "semicolon": <%= semicolon %>,
-    "space": 2,
-    "rules": {
-      "quote-props": ["error", "as-needed"],
-      "no-unused-vars": [2, { "vars": "all", "args": "none" }],
-      "curly": [
-        "error",
-        "multi-line",
-        "consistent"
-      ]
-    }
+    "eslint": "latest",
+    "eslint-config-egoist": "latest"
   },
   "jest": {
     "testEnvironment": "node"
+  },
+  "eslintConfig": {
+    "extends": "egoist/esnext"
   }
 }
