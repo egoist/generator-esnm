@@ -14,8 +14,7 @@
     "node": ">=4"
   },
   "scripts": {
-    "test": "jest && eslint *.js",
-    "toc": "markdown-toc -i README.md"
+    "test": "jest && eslint *.js"
   },
   "files": [
     "index.js"<% if (cli) { %>,
