@@ -31,12 +31,12 @@
   "devDependencies": {
     "jest-cli": "^15.1.1",
     "eslint": "latest",
-    "eslint-config-egoist": "latest"
+    "eslint-config-rem": "latest"
   },
   "jest": {
     "testEnvironment": "node"
   },
   "eslintConfig": {
-    "extends": "egoist/esnext"
+    "extends": "rem/esnext"
   }
 }
