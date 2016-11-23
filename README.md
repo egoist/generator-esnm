@@ -12,7 +12,6 @@ This is what I use for [my own modules](https://www.npmjs.com/~kchan).
 $ npm install --global generator-esnm
 ```
 
-
 ## Usage
 
 With [yo](https://github.com/yeoman/yo):

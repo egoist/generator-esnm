@@ -71,6 +71,9 @@ $ <%= moduleName %> --help
 4. Push to the branch: `git push origin my-new-feature`
 5. Submit a pull request :D
 
-## License
+## Author
 
-[MIT](https://egoist.mit-license.org/) © [<%= name %>](<%= website %>)
+**<%= moduleName %>** © [<%= name %>](https://github.com/egoist), Released under the [MIT](https://egoist.mit-license.org/) License.<br>
+Authored and maintained by <%= name %> with help from contributors ([list](https://github.com/egoist/<%= moduleName %>/contributors)).
+
+> [egoistian.com](https://egoistian.com) · GitHub [@egoist](<%= website %>) · Twitter [@rem_rin_rin](https://twitter.com/rem_rin_rin)
