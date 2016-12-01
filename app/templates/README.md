@@ -1,6 +1,6 @@
 # <%= moduleName %>
 
-[![NPM version](https://img.shields.io/npm/v/<%= moduleName %>.svg?style=flat-square)](https://npmjs.com/package/<%= moduleName %>) [![NPM downloads](https://img.shields.io/npm/dm/<%= moduleName %>.svg?style=flat-square)](https://npmjs.com/package/<%= moduleName %>) [![Build Status](https://img.shields.io/circleci/project/egoist/<%= moduleName %>/master.svg?style=flat-square)](https://circleci.com/gh/egoist/<%= moduleName %>)
+[![NPM version](https://img.shields.io/npm/v/<%= moduleName %>.svg?style=flat-square)](https://npmjs.com/package/<%= moduleName %>) [![NPM downloads](https://img.shields.io/npm/dm/<%= moduleName %>.svg?style=flat-square)](https://npmjs.com/package/<%= moduleName %>) [![Build Status](https://img.shields.io/circleci/project/egoist/<%= moduleName %>/master.svg?style=flat-square)](https://circleci.com/gh/egoist/<%= moduleName %>) [![donate](https://img.shields.io/badge/$-donate-ff69b4.svg?maxAge=2592000&style=flat-square)](https://github.com/egoist/donate)
 
 ## Install
 
